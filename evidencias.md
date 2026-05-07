@@ -19,7 +19,7 @@ Ingresar a la carpeta:
 cd formato-json
 ```
 
-### Activar entorno de Python (si aplica)
+### Activar entorno de Python 
 
 En Windows:
 
@@ -33,7 +33,6 @@ En Linux/Mac:
 source venv/bin/activate
 ```
 
-*(Este paso es necesario si se está usando un entorno virtual)*
 
 ---
 
