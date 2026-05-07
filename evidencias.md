@@ -122,7 +122,15 @@ http://localhost:5173
 
 ### Resultado esperado
 
-- Base de datos `jugadores` creada en CouchDB  
-- Datos cargados correctamente  
-- Vistas funcionando  
-- Frontend mostrando los datos  
+- Base de datos `jugadores` creada en CouchDB
+ <img width="1807" height="513" alt="image" src="https://github.com/user-attachments/assets/478467d3-6952-4d29-a3a6-8b4a705feaa4" />
+ Datos cargados correctamente
+- <img width="1600" height="957" alt="image" src="https://github.com/user-attachments/assets/dc60757f-ce19-4bfa-b89c-b24f008d4ce2" />
+ Vistas funcionando
+- <img width="1807" height="1056" alt="image" src="https://github.com/user-attachments/assets/e43793f7-0aaf-4bba-85e5-977777504979" />
+- Frontend mostrando los datos
+ <img width="1600" height="998" alt="image" src="https://github.com/user-attachments/assets/5cf280c6-1d97-4516-ac1e-3aef55d38683" />
+  
+
+
+
