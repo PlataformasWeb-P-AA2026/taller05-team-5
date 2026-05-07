@@ -1,7 +1,8 @@
 import requests
 import json
+from credenciales import USUARIO, PASSWORD, HOST, PUERTO
 
-URL_BASE = "http://admin:admin@localhost:5984"
+URL_BASE = f"http://{USUARIO}:{PASSWORD}@{HOST}:{PUERTO}"
 BASE_DATOS = "jugadores"
 
 # 1. Crear la base de datos jugadores
