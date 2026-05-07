@@ -72,13 +72,11 @@ Ejecutar:
 python cargar_couchdb.py
 ```
 
-Esto creará automáticamente la base de datos:
+Esto cargara automáticamente a la base de datos,antes debe generar la base de datos con el nombre jugadores en CouchDB:
 
 ```text
 jugadores
 ```
-
-y cargará los datos.
 
 ---
 
