@@ -3,7 +3,7 @@
 ### 1. Clonar el repositorio
 
 ```bash
-git clone https://github.com/PlataformasWeb-P-AA2026/taller05-team-5.git
+git clone <URL_DEL_REPOSITORIO>
 cd taller05-team-2
 ```
 
@@ -19,13 +19,33 @@ Ingresar a la carpeta:
 cd formato-json
 ```
 
-Instalar librerías necesarias:
+### Activar entorno de Python (si aplica)
+
+En Windows:
+
+```bash
+.\venv\Scripts\activate
+```
+
+En Linux/Mac:
+
+```bash
+source venv/bin/activate
+```
+
+*(Este paso es necesario si se está usando un entorno virtual)*
+
+---
+
+### Instalar librerías
 
 ```bash
 pip install beautifulsoup4 pypdf
 ```
 
-Ejecutar el script:
+---
+
+### Ejecutar script
 
 ```bash
 python generar_json.py
@@ -39,7 +59,7 @@ mundial_2026.json
 
 ---
 
-### 3. Cargar datos en CouchDB
+### 3.Cargar datos en CouchDB
 
 Instalar librería adicional:
 
@@ -47,7 +67,7 @@ Instalar librería adicional:
 pip install requests
 ```
 
-Ejecutar el script:
+Ejecutar:
 
 ```bash
 python cargar_couchdb.py
@@ -59,19 +79,19 @@ Esto creará automáticamente la base de datos:
 jugadores
 ```
 
-y cargará los datos desde `mundial_2026.json`.
+y cargará los datos.
 
 ---
 
 ### 4. Ejecutar el frontend
 
-Regresar a la raíz del proyecto:
+Regresar a la raíz:
 
 ```bash
 cd ..
 ```
 
-Ingresar a la carpeta frontend:
+Entrar al frontend:
 
 ```bash
 cd frontend
@@ -89,7 +109,7 @@ Instalar dependencias:
 npm install
 ```
 
-Ejecutar la aplicación:
+Ejecutar:
 
 ```bash
 npm run dev
@@ -103,19 +123,9 @@ http://localhost:5173
 
 ---
 
-###  Resultado esperado
+### Resultado esperado
 
 - Base de datos `jugadores` creada en CouchDB  
 - Datos cargados correctamente  
 - Vistas funcionando  
-- Frontend mostrando los datos
-
-## Evidencia de carga en CouchDB 
-
-<img width="1600" height="957" alt="WhatsApp Image 2026-05-07 at 11 42 16 AM" src="https://github.com/user-attachments/assets/d349c4cb-da9a-4aef-b9ac-5290b9a8dd17" />
-<img width="1600" height="559" alt="WhatsApp Image 2026-05-07 at 11 42 42 AM" src="https://github.com/user-attachments/assets/02ed30e2-353d-4fc0-a6ae-7a727b19fb7a" />
-
-## Capturas del frontend funcionando 
-<img width="1600" height="922" alt="WhatsApp Image 2026-05-07 at 11 54 08 AM" src="https://github.com/user-attachments/assets/b0245cb3-3eba-442b-9e10-f7c83326fa86" />
-
-<img width="1600" height="998" alt="WhatsApp Image 2026-05-07 at 11 58 25 AM" src="https://github.com/user-attachments/assets/7bf89e42-52bb-43c1-8b53-b8ca75913e04" />
+- Frontend mostrando los datos  
