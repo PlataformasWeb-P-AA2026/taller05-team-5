@@ -3,7 +3,7 @@
 ### 1. Clonar el repositorio
 
 ```bash
-git clone <URL_DEL_REPOSITORIO>
+git clone https://github.com/PlataformasWeb-P-AA2026/taller05-team-5.git
 cd taller05-team-2
 ```
 
