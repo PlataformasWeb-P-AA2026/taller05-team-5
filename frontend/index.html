@@ -1,21 +1,37 @@
 <!doctype html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>vite-jquery-datatable</title>
+    <title>Estadisticas de Futbol</title>
+    <link rel="stylesheet" href="/src/style.css">
   </head>
   <body>
-    <select id="vista">
-      <option value="por_club">Por club</option>
-      <option value="por_partidos">Por partidos</option>
-      <option value="por_goles">Por goles</option>
-    </select>
 
-    <input id="filtro" type="text" placeholder="Filtrar por criterio">
+    <header>
+      <h1>Estadísticas de Futbol</h1>
+      <p>Sistema de visualizacion de datos</p>
+    </header>
 
-    <table id="tabla-posts"></table>
+    <main id="app">
+      <h2>Filtros</h2>
+
+      <select id="vista">
+        <option value="por_club">Por club</option>
+        <option value="por_partidos">Por partidos</option>
+        <option value="por_goles">Por goles</option>
+      </select>
+
+      <input id="filtro" type="text" placeholder="Filtrar por criterio">
+
+      <table id="tabla-posts"></table>
+    </main>
+
+    <footer>
+      <p>© 2026 Universidad - Proyecto académico</p>
+    </footer>
+
     <script type="module" src="/src/main.js"></script>
   </body>
 </html>
