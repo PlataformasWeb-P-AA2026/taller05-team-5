@@ -102,7 +102,7 @@ jugadores
 ```
 
 ---
-⚠️ antes de ejecutar dirijirse a permisos de la base en couchdb **quitar los permisos de admin en ambos roles osea presionar en las x debajo de Roles`**.
+⚠️ antes de ejecutar dirijirse a permisos de la base en couchdb **quitar los permisos de admin en ambos roles osea presionar en las x debajo de Roles**.
 <img width="1797" height="623" alt="image" src="https://github.com/user-attachments/assets/e06fc9fb-52d8-4064-a37b-9c2926b47da8" />
 
 ### 4. Ejecutar el frontend
