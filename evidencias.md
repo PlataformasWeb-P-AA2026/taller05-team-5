@@ -33,10 +33,29 @@ En Linux/Mac:
 source venv/bin/activate
 ```
 
-
 ---
 
 ### Instalar librerías
+
+Ingresar a la carpeta:
+
+```bash
+cd formato-json
+```
+
+### Activar entorno de Python 
+
+En Windows:
+
+```bash
+.\venv\Scripts\activate
+```
+
+En Linux/Mac:
+
+```bash
+source venv/bin/activate
+```
 
 ```bash
 pip install beautifulsoup4 pypdf
@@ -55,7 +74,7 @@ Esto generará el archivo:
 ```text
 mundial_2026.json
 ```
-
+⚠️ hasta este punto llega el paso que **únicamente si no se dispone del archivo `mundial_2026.json`**.
 ---
 
 ### 3.Cargar datos en CouchDB
