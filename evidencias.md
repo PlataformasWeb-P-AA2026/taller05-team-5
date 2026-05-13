@@ -1,4 +1,5 @@
 ## Cómo replicar el proyecto en otra computadora
+## Antes de iniciar la practica iniciar docker con couchDB en el puerto 5984
 
 ### 1. Clonar el repositorio
 
