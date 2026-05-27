@@ -8,7 +8,7 @@
 git clone https://github.com/PlataformasWeb-P-AA2026/taller05-team-5.git
 
 luego ingresar al archivo del proyecto:
-cd taller05-team-2
+cd taller05-team-5
 ```
 
 
